@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif !important;
+  margin: 0 !important;
+  padding: 20px !important;
+  background-color: #f4f4f9 !important;
+}
+
+h1,
+h2 {
+  color: #333 !important;
+}
+
+form {
+  margin-bottom: 20px !important;
+}
+
+input[type="text"] {
+  padding: 10px !important;
+  margin-right: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  float: left;
+}
+
+button {
+  padding: 10px 15px !important;
+  background-color: #5cb85c !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  position: absolute;
+}
+
+button:hover {
+  background-color: #4cae4c !important;
+}
+
+#meal-list {
+  background-color: #fff !important;
+  padding: 20px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  position: absolute;
+}
+
+ul {
+  list-style-type: none !important;
+  padding: 0 !important;
+}
+
+li {
+  padding: 10px !important;
+  border-bottom: 1px solid #ccc !important;
+}
