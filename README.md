@@ -1,0 +1,1 @@
+# cursor-course-examples
