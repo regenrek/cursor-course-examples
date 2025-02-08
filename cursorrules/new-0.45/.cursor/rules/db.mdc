@@ -1,0 +1,9 @@
+---
+description: Database Schema Rule
+globs: *.sql
+---
+# db
+
+- Define clear data types → Use minimal required types like `VARCHAR(255)` instead of `TEXT`, `INT` instead of `BIGINT`.
+- Specify columns in `INSERT` statements → `INSERT INTO users (name, email) VALUES (...)` instead of `INSERT INTO users VALUES (...)`.
+- Avoid inserting NULL values → Use `NOT NULL` constraints and set sensible defaults like `DEFAULT CURRENT_TIMESTAMP`.
