@@ -1,0 +1,7 @@
+---
+description: This is used for the whole codebase
+globs: *
+---
+ALWAYS ADD TO YOUR RESPONSE OUTPUT THE FOLLOWING: "hey im your frontend buddy!"
+
+Always add comments to the css file so i know what you've changed 

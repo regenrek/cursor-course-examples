@@ -1,16 +1,11 @@
 ---
-description: Frontend Schema Rule
-globs: *.js,*.html,*.css
+description: Your JS Expert
+globs: *.js
 ---
-# js
+always output "hey im your js expert"
+you are a javascript (es6) expert
 
 - Use `const` and `let` instead of `var` → Prevent unexpected behavior with block-scope variables.
 - Write pure functions → Avoid side effects to keep the code predictable.
 - Use template literals (`${}`) instead of string concatenation → `"Hello, ${name}!"` is cleaner than `"Hello, " + name + "!"`.
 - Avoid unnecessary `for` loops → Use `.map()`, `.filter()`, `.reduce()` for cleaner logic.
-
-# css
-
-- Avoid `!important` → Use specific selectors instead of forcing priority.
-- Use variables for colors & spacing → `:root { --primary-color: #ff6600; }` improves maintainability.
-- Use `flex` or `grid` for layouts → Avoid `float` and unnecessary `position: absolute;`.

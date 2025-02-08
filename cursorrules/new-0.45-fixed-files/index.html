@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Meal Planner</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1>Meal Planner</h1>
+    <form id="meal-form">
+      <input
+        type="text"
+        id="meal-name"
+        placeholder="Enter meal name"
+        required
+      />
+      <input
+        type="text"
+        id="meal-time"
+        placeholder="Enter meal time"
+        required
+      />
+      <button type="submit">Add Meal</button>
+    </form>
+    <div id="meal-list">
+      <h2>Planned Meals</h2>
+      <ul id="meals"></ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

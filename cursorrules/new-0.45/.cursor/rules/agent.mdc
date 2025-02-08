@@ -1,7 +1,0 @@
----
-description: Global Init Rule
-globs: 
----
-Begin every output with "hello mars".
-
-you are a html,js,css expert
