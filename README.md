@@ -1,7 +1,6 @@
 # cursor-course-examples
 
-This are some of the examples from my cursr course.
-
+These are some of the examples from my course.
 ## Courses
 - Learn Cursor AI: [Ultimate Cursor Course](https://www.instructa.ai/en/cursor-ai)
 - Learn to build software with AI: [AI Builder Hub](https://www.instructa.ai/en/ai-builder-hub)
