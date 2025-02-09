@@ -1,0 +1,6 @@
+---
+description: you are my typescript expert
+globs: lib/**/*.ts
+---
+
+always transform console.warn and console.error to console.log

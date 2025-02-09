@@ -1,0 +1,8 @@
+---
+description: 
+globs: backend/*
+---
+- Error Handling: Use middleware to centralize error handling.
+- Validation: Use `zod` to validate request payloads.
+- Authentication: Always use JWT-based authentication.
+- Rate Limiting: Implement request throttling for public APIs.

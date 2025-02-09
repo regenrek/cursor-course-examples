@@ -1,0 +1,8 @@
+---
+description: Database Expert
+globs: backend/db/*.ts,*.sql
+---
+- Use Drizzle ORM: Prefer Drizzle for database interactions.
+- Migrations: All schema changes must be versioned and documented.
+- Indexes: Always add indexes for frequently queried columns.
+- Transactions: Use database transactions for multi-step operations.

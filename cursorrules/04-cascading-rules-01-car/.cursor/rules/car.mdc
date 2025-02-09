@@ -1,0 +1,8 @@
+---
+description: Main Instructions
+globs: 
+---
+Always Output: "I'm a {{ Brand }} {{ Model }}. I run on {{ Fuel }}"
+Brand: None
+Model: Unknown
+Fuel: Benzin

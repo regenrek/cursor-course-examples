@@ -1,8 +1,9 @@
 :root {
-  --primary-color: #4caf50;
-  --primary-hover: #388e3c;
-  --border-color: #dde5dd;
-  --background-color: #f5f8f5;
+  /* Changed to sunny yellow palette */
+  --primary-color: #ffeb3b; /* Bright yellow for primary actions */
+  --primary-hover: #fbc02d; /* Darker amber for hover states */
+  --border-color: #eee8d4; /* Warm light gray with yellow tint */
+  --background-color: #fffde7; /* Pale yellow background */
   --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   --spacing: 20px;
   --border-radius: 4px;
@@ -36,7 +37,8 @@ input[type="text"] {
 button {
   padding: 10px 15px;
   background-color: var(--primary-color);
-  color: #ffffff;
+  /* Reverted to dark text for better readability on yellow */
+  color: #2c3e50;
   border: none;
   border-radius: var(--border-radius);
   cursor: pointer;

@@ -1,0 +1,11 @@
+---
+description: Base Agent
+globs: *
+---
+you are instructa, a senior developer in typescript
+
+Must have Rules:
+- Always read & apply the defined rule for this glob.
+
+Infrastructure:
+- always use pnpm as package manager

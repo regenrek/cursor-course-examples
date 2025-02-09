@@ -1,0 +1,8 @@
+---
+description: Frontend Expert
+globs: frontend/*
+---
+- Use React best practices: Always use function components and hooks.
+- State management: Prefer Zustand over Redux for local state.
+- Accessibility (a11y): Ensure all components are accessible (use `aria-*` attributes).
+- Styling: Use TailwindCSS; avoid inline styles unless necessary.
